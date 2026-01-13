@@ -1,0 +1,13 @@
+# Build Streamlit app as a standalone executable for Windows and Mac
+# 1. Install pyinstaller if not already installed:
+#    pip install pyinstaller
+# 2. Run the following command to build the executable:
+#    pyinstaller --onefile --add-data "config.json;." --add-data "requirements.txt;." --hidden-import streamlit.web.cli multi_node_streamlit_app.py
+#
+# For Mac, run the same command in a Mac environment.
+#
+# The generated executable will be in the 'dist' folder. Share the executable and config.json file together.
+#
+# Users can edit config.json and run the executable directly.
+#
+# Note: Streamlit apps are best run as scripts, but this method works for simple sharing. For best results, share the folder and run with Python + requirements.txt.

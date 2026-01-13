@@ -1,0 +1,14 @@
+{
+  "num_nodes": 3,
+  "max_time": 900,
+  "max_demand": 10,
+  "initial_inventories": [15, 30, 0],
+  "order_comm_lags": [1, 1, 1],
+  "lag_times": [2, 2, 2],
+  "manufacturing_time": 3,
+
+  "seed": null,
+  "show_node_stats": false,
+  "show_simulation_results": false,
+  "show_supply_chain_figure": false
+}

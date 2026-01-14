@@ -1,8 +1,5 @@
 streamlit
 matplotlib
 pandas
-json
 os
 collections
-random
-
